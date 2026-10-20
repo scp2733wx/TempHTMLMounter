@@ -1,0 +1,22 @@
+mysql:
+  dsn: "root:password@tcp(127.0.0.1:3306)/temphtmlmounter?charset=utf8mb4&parseTime=True&loc=Local"
+  port: 3306
+  host: 127.0.0.1
+  user: root
+  password: "password"
+
+jwt:
+  secret: "temphtmlmounter-secret"
+
+server:
+  port: 8080
+  host: localhost
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  password: ""
+
+upload:
+  dir: ./uploads
+  base_url: http://localhost:8080
